@@ -1,9 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="author" content="wangyanqin">
 	<title>mypro</title>
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<h1>hello mypro</h1>
+	<div class="random-center hide-area">
+		<div id="random-index">
+			<div class="center-field">
+				<img class="avatar" src="images/tx.jpg" alt="user pic" width="120px" height="120px" onclick="openUserCard()">
+			</div>
+			<div class="center-field">
+				<div class="sub-title" onclick="openUserCard()">demo site of WangYanQin</div>
+			</div>
+			<hr>
+			<div class="center-field">
+				<ul class="index-nav-link">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="https://github.com/voiletwangwang/voiletwangwang.github.io">GitHub</a></li>
+				</ul>
+				<ul class="social-icon">
+					<li>
+						<a href="https://github.com/voiletwangwang/voiletwangwang.github.io">
+							<i class="icon iconfont github">&#xe606;</i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon iconfont weibo">&#xe602;</i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon iconfont twitter">&#xe600;</i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon iconfont douban">&#xe609;</i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="user-card">
+		<div class="center-field">
+			<img class="avatar" src="images/tx.jpg" alt="tx">
+			<p id="description">this is my HomePage . by <a href="#">WangYanQin</a></p>
+			<ul class="social-icon">
+				<li>
+					<a href="https://github.com/voiletwangwang/voiletwangwang.github.io">
+						<i class="icon iconfont github">&#xe606;</i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="icon iconfont weibo">&#xe602;</i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="icon iconfont twitter">&#xe600;</i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="icon iconfont douban">&#xe609;</i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="btn-view">Hide</div>
+	
+	<script src="javascript/jquery-2.2.3.min.js"></script>
+	<script src="javascript/random.js"></script>
+	<script src="javascript/jquery.fancybox.pack.js"></script>
+	<script src="javascript/jquery.fancybox-thumbs.js"></script>
 </body>
 </html>
